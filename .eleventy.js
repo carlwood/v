@@ -63,7 +63,6 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("src/includes/css");
   eleventyConfig.addPassthroughCopy("assets");
 
   // Shortcode component example
