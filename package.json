@@ -8,7 +8,7 @@
     "serve": "eleventy --serve",
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
-    "sass": "sass --style=compressed src/scss/main.scss css/main.css",
+    "sass": "sass --style=compressed src/scss/main.scss assets/css/main.css",
     "start": "npm-run-all sass --parallel watch:*"
   },
   "repository": {
