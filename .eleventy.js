@@ -64,6 +64,19 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("src/includes/css");
+
+  // Shortcode component example
+  eleventyConfig.addShortcode("user", (name, twitterUsername) => {
+    return `<div class="user">
+              <div class="user_name">${name}</div>
+              <div class="user_twitter"><a href="https://twitter.com/@${twitterUsername}">@${twitterUsername}</div>
+            </div>`;
+  });
+
+  eleventyConfig.addShortcode("h1", (text) => {
+    return `<h1>${text}</h1>`
+  })
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

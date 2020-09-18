@@ -8,3 +8,7 @@ eleventyNavigation:
 ---
 
 I am a person that writes stuff.
+
+{% h1 "This is an H1" %}
+
+{% user "Zach Leatherman", "zachleat" %}
