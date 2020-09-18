@@ -1,9 +1,9 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Vito",
+  "url": "https://vi.to",
+  "description": "Vito is a platform for live-streaming delightful events and growing your community online..",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Vito is a platform for live-streaming delightful events and growing your community online..",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
